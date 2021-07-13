@@ -1,4 +1,4 @@
-import { Carousel, Col, Row } from "antd";
+import { Carousel } from "antd";
 import { withTranslation } from "react-i18next";
 import { Container, Content, ContentWrapper } from "./styles";
 

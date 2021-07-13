@@ -26,6 +26,7 @@ export const useForm = (validate: any) => {
     //       setShouldSubmit(true);
     //     });
     // }
+    setShouldSubmit(true);
   };
 
   useEffect(() => {
