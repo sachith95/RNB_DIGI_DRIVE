@@ -16,7 +16,7 @@ import {
   Span,
 } from "./styles";
 
-const Header = ({ t }: any) => {
+const Header = () => {
   const [visible, setVisibility] = useState(false);
 
   const showDrawer = () => {
@@ -38,20 +38,17 @@ const Header = ({ t }: any) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>{"About"}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{"Product"}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{"Contact"}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

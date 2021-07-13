@@ -20,7 +20,6 @@ export interface SvgIconProps {
 export interface InputProps {
   name: string;
   placeholder: string;
-  t: any;
   type?: string;
   value?: string;
   onChange: (
@@ -35,3 +34,8 @@ export interface validateProps {
   message: string;
   email: string;
 }
+
+export interface VideoProps {
+  url: string;
+}
+

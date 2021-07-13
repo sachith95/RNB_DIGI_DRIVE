@@ -1,0 +1,13 @@
+{
+  "title": "Testimonials",
+  "testimonials": [
+    {
+      "name": "Sherlock Homes",
+      "content": "To a great mind, nothing is little"
+    },
+    {
+      "name": "Thanos",
+      "content": "Dread it Run from it Destiny Arrives all the same"
+    }
+  ]
+}
