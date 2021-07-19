@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Row, Col, Drawer } from "antd";
+import { Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -14,6 +14,7 @@ import {
   Label,
   Outline,
   Span,
+  WaveRow,
 } from "./styles";
 
 const Header = () => {
@@ -57,32 +58,30 @@ const Header = () => {
 
   return (
     <HeaderSection>
-      <Container>
-        <Row justify="space-between">
-          <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
-          </LogoContainer>
-          <NotHidden>
-            <MenuItem />
-          </NotHidden>
-          <Burger onClick={showDrawer}>
-            <Outline />
-          </Burger>
-        </Row>
-        <Drawer closable={false} visible={visible} onClose={onClose}>
-          <Col style={{ marginBottom: "2.5rem" }}>
-            <Label onClick={onClose}>
-              <Col span={12}>
-                <Menu>Menu</Menu>
-              </Col>
-              <Col span={12}>
-                <Outline />
-              </Col>
-            </Label>
-          </Col>
+      <WaveRow justify="space-between">
+        <LogoContainer to="/" aria-label="homepage">
+          <SvgIcon src="logow.svg" width="100%" height="100%" />
+        </LogoContainer>
+        <NotHidden>
           <MenuItem />
-        </Drawer>
-      </Container>
+        </NotHidden>
+        <Burger onClick={showDrawer}>
+          <Outline />
+        </Burger>
+      </WaveRow>
+      <Drawer closable={false} visible={visible} onClose={onClose}>
+        <Col style={{ marginBottom: "2.5rem" }}>
+          <Label onClick={onClose}>
+            <Col span={12}>
+              <Menu>Menu</Menu>
+            </Col>
+            <Col span={12}>
+              <Outline />
+            </Col>
+          </Label>
+        </Col>
+        <MenuItem />
+      </Drawer>
     </HeaderSection>
   );
 };

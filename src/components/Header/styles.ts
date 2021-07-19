@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
+import { Row } from "antd";
 
 export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
 
   .ant-row-space-between {
     align-items: center;
@@ -101,4 +101,11 @@ export const Span = styled("span")`
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }
+`;
+
+export const WaveRow = styled(Row)`
+  height: 70%;
+  background-image: url(/img/svg/wave.svg);
+  background-size: 100% 70%;
+  background-size: cover;
 `;

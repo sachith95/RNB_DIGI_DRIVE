@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+import { Row } from "antd";
 
 
 export const NavLink = styled(Link)`
@@ -51,10 +51,7 @@ export const FooterContainer = styled("div")`
 
   @media screen and (max-width: 769px) {
     width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
+    display: contents;
   }
 
   div {
@@ -69,12 +66,10 @@ export const FooterContainer = styled("div")`
   }
 `;
 
-export const Language = styled("h4")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #18216d;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-  }
+export const WaveRow = styled(Row)`
+  background-image: url(/img/svg/wavefooter.svg);
+  background-size: 100% 50%;
+  -o-background-size: 100% 50%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
 `;

@@ -8,6 +8,7 @@ import {
   Extra,
   LogoContainer,
   FooterContainer,
+  WaveRow,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -16,7 +17,6 @@ interface SocialLinkProps {
 }
 
 const Footer = () => {
-  
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
@@ -34,35 +34,31 @@ const Footer = () => {
   return (
     <>
       <Extra>
-        <Container border={true}>
-          <Row
-            justify="space-between"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
-          >
-            <NavLink to="/">
-              <LogoContainer>
-                <picture>
-                  <img src="../../../public/img/svg/logo.jpg" alt="logo" />
-                </picture>
-              </LogoContainer>
-            </NavLink>
-            <FooterContainer>
-              <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="facebook.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-            </FooterContainer>
-          </Row>
-        </Container>
+        <WaveRow
+          justify="space-between"
+          align="middle"
+          style={{ paddingTop: "1rem" }}
+        >
+          <NavLink to="/">
+            <LogoContainer aria-label="homepage">
+              <SvgIcon src="logow.svg" width="100%" height="100%" />
+            </LogoContainer>
+          </NavLink>
+          <FooterContainer>
+            <SocialLink
+              href="https://github.com/Adrinlol/create-react-app-adrinlol"
+              src="facebook.svg"
+            />
+            <SocialLink
+              href="https://twitter.com/Adrinlolx"
+              src="twitter.svg"
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/lasha-kakabadze/"
+              src="linkedin.svg"
+            />
+          </FooterContainer>
+        </WaveRow>
       </Extra>
     </>
   );
