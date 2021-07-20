@@ -2,6 +2,7 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import ProductsContent from "../../content/ProductsContent.json";
 import AboutContent from "../../content/AboutContent.json";
+import LeadershipContent from "../../content/LeadershipContent.json";
 import ProductOne from "../../content/ProductOne.json";
 import ProductTwo from "../../content/ProductTwo.json";
 import ProductThree from "../../content/ProductThree.json";
@@ -14,6 +15,10 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const VideoBlock = lazy(() => import("../../components/VideoBlock"));
 const TestimonialBlock = lazy(() => import("../../components/Testimonial"));
+const CardBlock = lazy(() => import("../../components/CardContentBlock"));
+const CardBlockImage = lazy(
+  () => import("../../components/CardContentBlockImage")
+);
 
 const Home = () => {
   return (
@@ -27,13 +32,15 @@ const Home = () => {
         icon="creative-thinking.svg"
         id="intro"
       />
-      <ContentBlock
-        type="left"
+      <CardBlock
         title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="team-meeting-illustration.svg"
-        id="product"
+        content={AboutContent.content}
+        id="about"
+      />
+      <CardBlockImage
+        title={LeadershipContent.title}
+        content={LeadershipContent.content}
+        id="leadership"
       />
       <VideoBlock
         title="RNB Digi-Drive Co. Intro"
@@ -47,11 +54,6 @@ const Home = () => {
         icon="team-meeting-illustration.svg"
         id="product"
       />
-      {/* <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      /> */}
       <ContentBlock
         type="right"
         title={ProductOne.title}
@@ -64,14 +66,14 @@ const Home = () => {
         title={ProductTwo.title}
         content={ProductTwo.text}
         icon="handshake-2.svg"
-        id="product"
+        id="two"
       />
       <ContentBlock
         type="right"
         title={ProductThree.title}
         content={ProductThree.text}
         icon="viral.svg"
-        id="product"
+        id="three"
       />
       <TestimonialBlock
         title={TestimonialContent.title}
