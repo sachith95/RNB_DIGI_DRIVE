@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
-import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
 import {
@@ -49,7 +48,7 @@ const Header = () => {
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{"Contact"}</Button>
+            <Button  style={{ color: "#fecf62" }} >{"Contact"}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

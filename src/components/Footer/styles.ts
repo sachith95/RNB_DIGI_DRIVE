@@ -68,8 +68,5 @@ export const FooterContainer = styled("div")`
 
 export const WaveRow = styled(Row)`
   background-image: url(/img/svg/wavefooter.svg);
-  background-size: 100% 50%;
-  -o-background-size: 100% 50%;
-  -webkit-background-size: 100% 100%;
   background-size: cover;
 `;
