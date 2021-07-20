@@ -1,5 +1,6 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
+import ProductsContent from "../../content/ProductsContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import ProductOne from "../../content/ProductOne.json";
 import ProductTwo from "../../content/ProductTwo.json";
@@ -26,15 +27,23 @@ const Home = () => {
         icon="creative-thinking.svg"
         id="intro"
       />
-      <VideoBlock
-        title="test"
-        url="https://www.youtube.com/embed/_tuLd3h19Fw?controls=0"
-      ></VideoBlock>
       <ContentBlock
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
+        icon="team-meeting-illustration.svg"
+        id="product"
+      />
+      <VideoBlock
+        title="RNB Digi-Drive Co. Intro"
+        url="https://www.youtube.com/embed/cxnulS1Uqc8"
+      ></VideoBlock>
+      <ContentBlock
+        type="left"
+        title={ProductsContent.title}
+        content={ProductsContent.text}
+        section={ProductsContent.section}
         icon="team-meeting-illustration.svg"
         id="product"
       />

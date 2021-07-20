@@ -48,7 +48,7 @@ const Header = () => {
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button  style={{ color: "#fecf62" }} >{"Contact"}</Button>
+            <Button>{"Contact"}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
