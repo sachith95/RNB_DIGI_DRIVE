@@ -1,6 +1,23 @@
 {
-    "title": "Team Building",
-    "text": "Build",
-    "button": "Get started"
+    "title": "Transforming people and organisations around the globe",
+    "text": "",
+    "section": [
+      {
+        "title": "DELEGATES TRAINED",
+        "content": "50000+"
+      },
+      {
+        "title": "BESPOKE TRAININGS",
+        "content": "215+"
+      },
+      {
+        "title": "ORGANIZATION TRANSFORMED",
+        "content": "120+"
+      },
+      {
+        "title": "KNOWLEDGE EXPERTS",
+        "content": "65+"
+      }
+    ]
   }
   

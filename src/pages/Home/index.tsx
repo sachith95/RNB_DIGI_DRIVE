@@ -5,7 +5,6 @@ import AboutContent from "../../content/AboutContent.json";
 import LeadershipContent from "../../content/LeadershipContent.json";
 import ProductOne from "../../content/ProductOne.json";
 import ProductTwo from "../../content/ProductTwo.json";
-import ProductThree from "../../content/ProductThree.json";
 import ContactContent from "../../content/ContactContent.json";
 import TestimonialContent from "../../content/TestimonialContent.json";
 
@@ -55,25 +54,20 @@ const Home = () => {
         id="product"
       />
       <ContentBlock
-        type="right"
+        type="left"
         title={ProductOne.title}
         content={ProductOne.text}
+        section={ProductOne.section}
         icon="remote-team.svg"
         id="one"
       />
       <ContentBlock
-        type="left"
+        type="rightc"
         title={ProductTwo.title}
         content={ProductTwo.text}
+        section={ProductTwo.section}
         icon="handshake-2.svg"
         id="two"
-      />
-      <ContentBlock
-        type="right"
-        title={ProductThree.title}
-        content={ProductThree.text}
-        icon="viral.svg"
-        id="three"
       />
       <TestimonialBlock
         title={TestimonialContent.title}
