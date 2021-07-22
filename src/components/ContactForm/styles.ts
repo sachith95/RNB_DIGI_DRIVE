@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContactContainer = styled("div")`
   padding: 5rem 0;
+  
 
   @media only screen and (max-width: 1024px) {
     padding: 3rem 0;
@@ -11,6 +12,7 @@ export const ContactContainer = styled("div")`
 export const FormGroup = styled("form")`
   width: 100%;
   max-width: 520px;
+  border: 1px solid #ffffff;
 
   @media only screen and (max-width: 1045px) {
     max-width: 100%;

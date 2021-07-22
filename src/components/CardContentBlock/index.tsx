@@ -12,9 +12,9 @@ const CardContentBlock = ({ title, content, id }: CardContentBlockProps) => {
       myArray.push(
         <Col lg={8} md={8} sm={11} xs={24}>
           <Card
-            title={content[i].title}
+            title={<p style={{ color: "#cd9a2b", alignContent: "center"}}>{content[i].title}</p>}
             hoverable
-            style={{ width: 300, height: 300 }}
+            style={{ width: 300, height: 300, textAlign: "center" }}
           >
             <ContentWrapper>
               <p>{content[i].content}</p>

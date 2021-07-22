@@ -17,12 +17,14 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: rgb(241, 242, 243);
+  background: black;
+  color: white;
   position: relative;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2rem;
+  border-color: #ffffff;
 `;
 
 export const LogoContainer = styled("div")`
@@ -69,4 +71,5 @@ export const FooterContainer = styled("div")`
 export const WaveRow = styled(Row)`
   background-image: url(/img/svg/wavefooter.svg);
   background-size: cover;
+  border-top: 1px solid #ffffff;
 `;

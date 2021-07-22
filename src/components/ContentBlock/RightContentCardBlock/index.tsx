@@ -21,7 +21,7 @@ const RightContentCardBlock = ({ title, content, section, id }: ContentBlockProp
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <b>
-                <p>{title}</p>
+                <p style={{color: "#cd9a2b"}}>{title}</p>
               </b>
               <Content>
                 <ServiceWrapper>
