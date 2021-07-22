@@ -16,6 +16,8 @@ export const TextWrapper = styled("div")`
 
 export const ContentWrapper = styled("div")`
   max-width: 570px;
+  min-height: 300px;
+  background-color: #f7f7f7;
 
   @media only screen and (max-width: 768px) {
     max-width: 100%;

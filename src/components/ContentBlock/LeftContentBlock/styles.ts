@@ -38,5 +38,5 @@ export const MinTitle = styled("h6")`
 `;
 
 export const MinPara = styled("p")`
-  font-size: 13px;
+  font-size: 12px;
 `;

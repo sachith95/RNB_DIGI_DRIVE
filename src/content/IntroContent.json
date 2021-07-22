@@ -1,13 +1,10 @@
 {
   "title": "Welcome to RNB DIGI-DRIVE CO. ",
-  "text": "LEARN! EXCEL! INSPIRE! RNB Digi-Drive Co. is a well established team of specialized trainers engaged in developing individuals into unleashing their potential to support their personal growth. ",
+  "sub": "LEARN! EXCEL! INSPIRE!",
+  "text": "RNB Digi-Drive Co. is a well established team of specialized trainers engaged in developing individuals into unleashing their potential to support their personal growth. ",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }

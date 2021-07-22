@@ -5,22 +5,22 @@
       {
         "title": "Maximum budget efficiency",
         "content": "Our training pass services allow you to take full control of your budget and get the most for your money.",
-        "icon": "notes.svg"
+        "icon": "budget.svg"
       },
       {
         "title": "Save time & avoid hassle",
         "content": "Once we have your training requirements, we do all the hard work from start to finish",
-        "icon": "notes.svg"
+        "icon": "time.svg"
       },
       {
         "title": "Dedicated account manager",
         "content": "Your on hand account manager is committed to delivering the best possible service.",
-        "icon": "notes.svg"
+        "icon": "hand.svg"
       },
       {
         "title": "Highest calibre of trainers",
         "content": "We only source the best quality trainers from around the globe to ensure your training runs like clockwork.",
-        "icon": "notes.svg"
+        "icon": "degree.svg"
       }
     ]
   }

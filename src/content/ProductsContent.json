@@ -1,20 +1,21 @@
 {
   "title": "OurProduct Line",
   "text": "What we offer you is an end to end solution: all you need to do is to tell us what you need: and rest easy. You have our promise to ensure quality delivery will be a guarantee.",
+  "fontstlyes": {"fontWeight": 0, "fontSize": 15},
   "section": [
     {
       "title": "Team Building",
-      "content": "This is all about",
+      "content": "We offer programs combining cutting edge concepts, practical tools and best of class insights.",
       "icon": "notes.svg"
     },
     {
       "title": "Soft Skill Development",
-      "content": "Know how to communicate",
+      "content": "We cover almost all essential soft skills areas",
       "icon": "notes.svg"
     },
     {
       "title": "Content Development",
-      "content": "Let others know what you think",
+      "content": "We develop content for both internal training and self learning requirements. Our pool of specialists focus not only in getting the right mix of tools and techniques together, they also focus on how it is presented and ensure learning is both engaging and fun.",
       "icon": "notes.svg"
     }
   ]

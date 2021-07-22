@@ -38,7 +38,7 @@ export const FooterContainer = styled("div")`
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
-
+  padding-right: 2rem;
   a {
     &:hover,
     &:active,

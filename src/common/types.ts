@@ -1,5 +1,6 @@
 export interface ContainerProps {
   border?: boolean;
+  color?: string;
   children: React.ReactNode;
 }
 

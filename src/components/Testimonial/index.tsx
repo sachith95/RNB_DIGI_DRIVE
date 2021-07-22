@@ -4,6 +4,7 @@ import { Container, Content, ContentWrapper } from "./styles";
 
 interface Testimonials {
   name: string;
+  title:string;
   content: string
 }
 
@@ -15,10 +16,11 @@ interface Props {
 const TestimonialBlock = ({ title, contentArray }: Props) => {
   var slides = [];
   for (var i = 0; i < contentArray.length; i++) {
-    const {name,content} = contentArray[i]
+    const {name,content,title} = contentArray[i]
     slides.push(
         <ContentWrapper>
-            <h6>{name}</h6>
+            <b><p style={{fontSize: 25 }}>{name}</p></b>
+            <p style={{fontSize: 15 }}>{title}</p>
             <Content>{content}</Content>
         </ContentWrapper>
     );
@@ -26,7 +28,7 @@ const TestimonialBlock = ({ title, contentArray }: Props) => {
   return (
     <Container>
       <h6>{title}</h6>
-      <Carousel autoplay>{slides}</Carousel>
+      <Carousel dots autoplay>{slides}</Carousel>
     </Container>
   );
 };

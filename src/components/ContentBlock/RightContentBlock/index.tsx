@@ -13,6 +13,7 @@ import {
 
 const RightBlock = ({
   title,
+  sub,
   content,
   button,
   icon,
@@ -31,6 +32,7 @@ const RightBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{title}</h6>
+              <b><p>{sub}</p></b>
               <Content>{content}</Content>
               <ButtonWrapper>
                 {typeof button === "object" &&

@@ -26,6 +26,7 @@ const Home = () => {
       <ContentBlock
         type="right"
         title={IntroContent.title}
+        sub={IntroContent.sub}
         content={IntroContent.text}
         button={IntroContent.button}
         icon="creative-thinking.svg"
@@ -49,6 +50,7 @@ const Home = () => {
         type="left"
         title={ProductsContent.title}
         content={ProductsContent.text}
+        fontstlyes={ProductsContent.fontstlyes}
         section={ProductsContent.section}
         icon="team-meeting-illustration.svg"
         id="product"
@@ -57,6 +59,7 @@ const Home = () => {
         type="left"
         title={ProductOne.title}
         content={ProductOne.text}
+        fontstlyes={ProductOne.fontstlyes}
         section={ProductOne.section}
         icon="remote-team.svg"
         id="one"

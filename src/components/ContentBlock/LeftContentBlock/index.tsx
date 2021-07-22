@@ -18,6 +18,7 @@ const LeftContentBlock = ({
   content,
   section,
   id,
+  fontstlyes,
 }: ContentBlockProps) => {
   return (
     <LeftContentSection>
@@ -46,7 +47,7 @@ const LeftContentBlock = ({
                             ""
                           )}
                           <MinTitle>{item.title}</MinTitle>
-                          <MinPara>{item.content}</MinPara>
+                          <MinPara><p style={fontstlyes}>{item.content}</p></MinPara>
                         </Col>
                       );
                     })}
