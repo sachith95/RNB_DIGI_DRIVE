@@ -14,7 +14,7 @@ const CardContentBlock = ({ title, content, id }: CardContentBlockProps) => {
           <Card
             title={<p style={{ color: "#cd9a2b", alignContent: "center"}}>{content[i].title}</p>}
             hoverable
-            style={{ width: 300, height: 300, textAlign: "center" }}
+            style={{ width: 300, height: 300, textAlign: "center",  backgroundColor: "rgba(0, 0, 0, 0.85)", borderColor: "#cd9a2b"}}
           >
             <ContentWrapper>
               <p>{content[i].content}</p>

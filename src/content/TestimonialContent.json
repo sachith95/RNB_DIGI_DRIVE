@@ -2,11 +2,6 @@
   "title": "What our customers are saying",
   "testimonials": [
     {
-      "name": "Chamindra Kalupathirana",
-      "title": "Head of HR - Fox Lab (pvt) Ltd",
-      "content": "“We signed up with RNB Digi Drive at the beginning of 2021, and we have now successfully completed 20+ training programes covering for over 500 Dialog employees within a period of 5 months. RNB Digi Drive was very professional and provided us with excellent training  plans to meet our needs and vision. We have got great feedback from our participants, and they have repeatedly highlighted how flexible and easy it was to work with them”"
-    },
-    {
       "name": "Nadee Pathmaperuma",
       "title": "Manager of Stella Affairs",
       "content": "“RNB Digi Drive trainers are excellent, extremly professional and knowledgable. What is unique about them is that they create fun and positive learning environments for our participants”"
@@ -20,6 +15,11 @@
       "name": "Dinuka Mahalekam",
       "title": "Managing Director  City Logistics (pvt) Ltd",
       "content": "“We have had tremendous responses from our team on the content, delivery and their innate ability to relate well and blend with participants of varied profiles. The sessions were professional, informative and as a consequence we were able to reach the breakthrough we were looking for”"
+    },
+    {
+      "name": "Chamindra Kalupathirana",
+      "title": "Head of HR - Fox Lab (pvt) Ltd",
+      "content": "“We signed up with RNB Digi Drive at the beginning of 2021, and we have now successfully completed 20+ training programes covering for over 500 Dialog employees within a period of 5 months. RNB Digi Drive was very professional and provided us with excellent training  plans to meet our needs and vision. We have got great feedback from our participants, and they have repeatedly highlighted how flexible and easy it was to work with them”"
     }
   ]
 }

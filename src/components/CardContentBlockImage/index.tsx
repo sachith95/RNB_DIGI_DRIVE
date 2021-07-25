@@ -12,15 +12,15 @@ const CardContentBlockImage = ({ title, content, id }: CardContentBlockImageProp
     for (let i = 0; i < content.length; i++) {
       myArray.push(
           <Card
-            style={{ width: "45%", margin: 5, minHeight: "290px" }}
+            style={{ width: "45%", margin: 5, minHeight: "290px",  backgroundColor: "rgba(0, 0, 0, 0.85)", borderColor: "#cd9a2b" }}
           >
             <p style={{ color: "#cd9a2b" }}>{content[i].quote}</p>
             <Meta
               avatar={
-                <Avatar src={`img/svg/${content[i].icon}`} />
+                <Avatar src={`img/svg/${content[i].icon}`}  size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }} />
               }
-              title={content[i].name}
-              description={content[i].title+'('+ content[i].about+')'}
+              title={<p style={{ fontSize: 14}}>{content[i].name}</p>}
+              description={<p style={{ alignContent: "center", fontSize: 12}}>{content[i].title+'('+ content[i].about+')'}</p>}
             />
           </Card>
       );

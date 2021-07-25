@@ -46,7 +46,7 @@ const RightContentCardBlock = ({ title, content, section, id }: ContentBlockProp
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <Card style={{ backgroundColor: "rgb(249 248 245)" }} title="OUR NEW NORMAL">
+            <Card style={{ backgroundColor: "rgba(0, 0, 0, 0.85)", borderColor: "#cd9a2b" }} title={<p style={{ color: "#cd9a2b", alignContent: "center", borderColor: "#cd9a2b"}}>OUR NEW NORMAL</p>}>
               <p>
                 "Over the course of the current health crisis we’ve adapted the
                 way we work to allow our clients to continue getting the same

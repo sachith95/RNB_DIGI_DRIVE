@@ -21,7 +21,7 @@ const TestimonialBlock = ({ title, contentArray }: Props) => {
         <ContentWrapper>
             <b><p style={{fontSize: 25 }}>{name}</p></b>
             <p style={{fontSize: 15 }}>{title}</p>
-            <Content>{content}</Content>
+            <Content style={{color: "#cd9a2b" }}>{content}</Content>
         </ContentWrapper>
     );
   }
